@@ -1,4 +1,4 @@
-# chssid
+# one-grip-ssid
 
 Wi-Fi 名を「一握の砂」の短歌にしつづけるやつ。
 
@@ -13,19 +13,19 @@ TODO: スクショ
 
 ```
 ## ルーターの IP と認証情報の設定
-vi .env
+$ vi .env
 BUFFALO_IP="192.168.11.XX"
 BUFFALO_USERNAME="admin"
 BUFFALO_PASSWORD="some-password"
 
 ## 青空文庫から短歌をスクレイピングし songs.yaml に保存
-docker-compose run --rm app bundle exec ruby scrape.rb
+$ docker-compose run --rm app bundle exec ruby scrape.rb
 
 ## 定期的に Wi-Fi 名を変更する処理を起動 (フォアグラウンド)
-docker-compose run --rm app bundle exec ruby app.rb
+$ docker-compose run --rm app bundle exec ruby app.rb
 
 ## 定期的に Wi-Fi 名を変更する処理を起動 (バックグラウンド)
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 ## メモなど
