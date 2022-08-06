@@ -2,7 +2,7 @@
 
 Wi-Fi 名を「一握の砂」の短歌にしつづけるやつ。
 
-<img src="screenshot.jpg" width="500px">
+<img src="screenshot.jpg" width="320px">
 
 ## 前提条件
 
