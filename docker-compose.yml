@@ -5,4 +5,5 @@ services:
     command: bundle exec ruby app.rb
     volumes:
       - .:/work
+    tty: true
     restart: always
