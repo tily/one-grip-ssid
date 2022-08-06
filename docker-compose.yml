@@ -1,0 +1,8 @@
+version: "2"
+services:
+  app:
+    build: .
+    command: bundle exec ruby app.rb
+    volumes:
+      - .:/work
+    restart: always
