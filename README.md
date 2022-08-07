@@ -1,6 +1,6 @@
 # one-grip-ssid
 
-Wi-Fi 名を「一握の砂」の短歌にしつづけるやつ。
+Wi-Fi 名を「一握の砂」の短歌にするやつ。
 
 <img src="screenshot.jpg" width="320px">
 
